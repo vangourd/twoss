@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "82d835c748df00605894c9aeabc013b9a160d1296b9e8e8f9006a7399eb242a1"
+            "sha256": "90c3a3f19739d0f549ad9e0a30b64b1ee586b2a17cf70fb37413b2f9b20e86fc"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,12 @@
         ]
     },
     "default": {
+        "blinker": {
+            "hashes": [
+                "sha256:471aee25f3992bd325afa3772f1063dbdbbca947a041b8b89466dc00d606f8b6"
+            ],
+            "version": "==1.4"
+        },
         "click": {
             "hashes": [
                 "sha256:2335065e6395b9e67ca716de5f7526736bfa6ceead690adf616d925bdc622b13",
@@ -30,6 +36,20 @@
             ],
             "index": "pypi",
             "version": "==1.1.1"
+        },
+        "flask-jwt": {
+            "hashes": [
+                "sha256:49c0672fbde0f1cd3374bd834918d28956e3c521c7e00089cdc5380d323bd0ad"
+            ],
+            "index": "pypi",
+            "version": "==0.3.2"
+        },
+        "flask-sso": {
+            "hashes": [
+                "sha256:541a8a2387c6eac4325c53f8f7f863a03173b37aa558a37a430010d7fc1a3633"
+            ],
+            "index": "pypi",
+            "version": "==0.4.0"
         },
         "itsdangerous": {
             "hashes": [
@@ -78,6 +98,13 @@
             ],
             "version": "==1.1.1"
         },
+        "pyjwt": {
+            "hashes": [
+                "sha256:87a831b7a3bfa8351511961469ed0462a769724d4da48a501cb8c96d1e17f570",
+                "sha256:99fe612dbe5f41e07124d9002c118c14f3ee703574ffa9779fee78135b8b94b6"
+            ],
+            "version": "==1.4.2"
+        },
         "pyodbc": {
             "hashes": [
                 "sha256:1b87eddbd50a8ef2703ca98dae69e3c83b04aaa7be0f5ae2d8a16fc56f6fe33c",
@@ -105,6 +132,13 @@
             ],
             "index": "pypi",
             "version": "==0.10.3"
+        },
+        "six": {
+            "hashes": [
+                "sha256:3350809f0555b11f552448330d0b52d5f24c91a322ea4a15ef22629740f3761c",
+                "sha256:d16a0141ec1a18405cd4ce8b4613101da75da0e9a7aec5bdd4fa804d0e0eba73"
+            ],
+            "version": "==1.12.0"
         },
         "werkzeug": {
             "hashes": [

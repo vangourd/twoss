@@ -9,6 +9,7 @@ class WorkOrder():
         query = \
         """SELECT TOP {}
                 id,
+                dtcreated,
                 workdescription,
                 ownerid
             FROM
@@ -18,7 +19,12 @@ class WorkOrder():
         result = self.db.cursor.execute(query)
         wo = []
         for row in result:
-            wo.append(row)
+            wo.append({
+                'id': row[0],
+                'dtcreated': row[1],
+                'workdescription': row[2],
+                'ownerid': row[3]
+            })
         return wo
 
     

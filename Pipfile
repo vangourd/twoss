@@ -11,6 +11,8 @@ pylint = "*"
 flask = "*"
 python-dotenv = "*"
 pyodbc = "*"
+flask-jwt = "*"
+flask-sso = "*"
 
 [requires]
 python_version = "3.7"
